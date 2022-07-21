@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Poppins:wght@200;500;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#navbar{
+    width: 100%;
+    background: rgb(43, 43, 42);
+    color: #eee;
+    height: 80px;
+}
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-items{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+#navbar-items li{
+    padding: 10px;
+}
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background: url(/images/peixe-imagem-animada-0431.gif)center no-repeat;
+    background-size: contain ;
+ 
+}
+#copy{
+    justify-content: end;
+    font-size: small;
+    text-align: center;
+}
+a:hover{
+color: aqua;
+}
+
+
+.titulo{
+ text-align: center;
+}
+.texto{
+    margin-left: 5px;
+}
+hr{
+    margin: 5px;
+}
