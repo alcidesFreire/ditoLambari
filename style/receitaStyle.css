@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Poppins:wght@200;500;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#navbar{
+    width: 100%;
+    background: rgb(43, 43, 42);
+    color: #eee;
+    height: 80px;
+}
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-items{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+#navbar-items li{
+    padding: 10px;
+}
+#copy{
+    justify-content: end;
+    font-size: small;
+    text-align: center;
+    padding-top: 250px;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+color: aqua;
+}
+main{
+    background: none;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+main.cards section.card .icon{
+    width: 190px;
+    height: 190px;
+   
+}
+main.cards section.card img{
+    width: 100%;
+}
+main.cards section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgb(157, 207, 253);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin: 5px;
+    max-height: 156px;
+    box-shadow: 20px 20px 50px -30px rgb(66, 164, 202);
+    position:relative;
+}
+main.cards section.card button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 100%;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    background: linear-gradient(to left, rgb(123, 252, 252), white);
+    color: rgb(58, 57, 57);
+}
+h3{
+    margin: 16px 0;
+    font-size: 100%;
+}
+
+
+@media screen and (max-width: 720px) {
+    main.cards{
+    flex-direction: column;
+    margin-top: 150px;
+    padding: 50px;
+    
+}   
+}
+
+
+    

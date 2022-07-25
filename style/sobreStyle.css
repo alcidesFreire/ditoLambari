@@ -34,13 +34,12 @@ a{
     padding: 10px;
 }
 #showcase{
-    height: 100vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #eee;
     background: url(/images/peixe-imagem-animada-0431.gif)center no-repeat;
-    background-size: contain ;
+    background-size: medium ;
  
 }
 #copy{
@@ -55,9 +54,12 @@ color: aqua;
 
 .titulo{
  text-align: center;
+ padding: 10px;
 }
 .texto{
-    margin-left: 5px;
+    text-align: center;
+    justify-content: right;
+
 }
 hr{
     margin: 5px;

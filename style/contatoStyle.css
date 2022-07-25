@@ -36,10 +36,9 @@ a{
     padding: 10px;
 }
 #copy{
-    justify-content: end;
     font-size: small;
     text-align: center;
-    padding-top: 100%;
+    padding-top: 10vh
     
 }
 a:hover{
@@ -51,17 +50,32 @@ color: aqua;
     padding: 5px 10px;
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     flex-direction: column;
     color: black;
 }
 #showcase{
-    height: 100vh;
+    height: 60vh;
     display: flex;
-    justify-content: auto;
-    align-items: auto;
-    color: #eee;
-    background: url(/images/nemo.gif)no-repeat top;
-    background-size: auto;
+    justify-content: center;
+    align-items: top;
+    background: url(/images/nemo.gif)no-repeat bottom;
+    background-size: small;
+    margin: 5px;
     
+}
+.box{
+    justify-content: left;
+    text-align: center;
+    margin: 5px;
+}
+.content{
+    text-align: center;
+    margin: 5px;
+}
+hr{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
 }
